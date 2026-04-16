@@ -1,0 +1,11 @@
+class Record:
+    def show(self):
+        print("Record")
+
+class Vitals(Record):
+    def show_vitals(self):
+        print("Vitals data")
+
+v = Vitals()
+v.show()
+v.show_vitals()
