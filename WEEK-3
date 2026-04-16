@@ -1,0 +1,8 @@
+vitals = []
+
+for i in range(2):
+    bp = input("Enter BP: ")
+    hr = input("Enter Heart Rate: ")
+    vitals.append((bp, hr))
+
+print("Vitals Records:", vitals)
