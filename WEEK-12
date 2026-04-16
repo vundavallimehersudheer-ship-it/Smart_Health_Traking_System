@@ -1,0 +1,5 @@
+bp = [120, 130, 140]
+
+plt.plot(bp)
+plt.title("BP Trend")
+plt.show()
