@@ -1,0 +1,4 @@
+import numpy as np
+
+data = np.array([120, 130, 140])
+print("Average:", np.mean(data))
