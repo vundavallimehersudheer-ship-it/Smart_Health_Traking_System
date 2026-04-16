@@ -1,0 +1,11 @@
+patient = {
+    "name": "Ram",
+    "age": 20
+}
+
+diseases = {"diabetes", "bp"}
+fixed = (120, 80)
+
+print(patient)
+print(diseases)
+print(fixed)
