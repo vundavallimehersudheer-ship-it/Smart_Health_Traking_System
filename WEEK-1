@@ -1,0 +1,10 @@
+name = input("Enter Name: ")
+age = int(input("Enter Age: "))
+gender = input("Enter Gender: ")
+blood = input("Enter Blood Group: ")
+height = float(input("Enter Height: "))
+weight = float(input("Enter Weight: "))
+phone = input("Enter Phone Number: ")
+
+print(f"\nPatient Details:\nName: {name}\nAge: {age}\nGender: {gender}")
+print(f"Blood Group: {blood}\nHeight: {height}\nWeight: {weight}\nPhone: {phone}")
