@@ -1,0 +1,11 @@
+while True:
+    print("\n1. Add Patient\n2. Exit")
+    choice = int(input("Enter choice: "))
+
+    if choice == 1:
+        name = input("Enter Name: ")
+        print("Patient Added:", name)
+    elif choice == 2:
+        break
+    else:
+        print("Invalid choice")
