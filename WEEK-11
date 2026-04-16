@@ -1,0 +1,6 @@
+import pandas as pd
+
+data = {"BP": [120, 130], "HR": [80, 85]}
+df = pd.DataFrame(data)
+
+print(df)
