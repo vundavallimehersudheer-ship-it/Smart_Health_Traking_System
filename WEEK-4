@@ -1,0 +1,11 @@
+vitals = []
+
+def add_vitals():
+    bp = input("Enter BP: ")
+    vitals.append(bp)
+
+def show_vitals():
+    print(vitals)
+
+add_vitals()
+show_vitals()
